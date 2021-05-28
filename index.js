@@ -13,6 +13,8 @@ function overwriteBestCustomer(){
     return bestCustomer = "maybe bob"
 }
 
-function changeLeastFavoriteCustomer(x){
-    var leastfavorite = 
+function changeLeastFavoriteCustomer(){
+    throw 'Assignment to constant variable.'
 }
+
+changeLeastFavoriteCustomer()
